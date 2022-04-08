@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+}
+
+body header {
+  background: #AFD7FF ;
+  color: navy;
+  padding: 20px;
+}
+
+/*I PUT PADDING AT THE TOP SO THERE WAS SOME SPACE BETWEEN THE PICTURE AND THE HEADER*/
+main{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #C5E2FF;
+  font-family: arial;
+  color: navy;
+}
+
+/* PADDING HERE FOR SPACE BETWEEN PICTURE AND "ABOUT ME"*/
+main article h2, main div h2{
+  padding-top: 50px;
+  font-size: 45px;
+}
+
+/* SPECIFIED THAT PARAGRAPH'S GO ON THE LEFT SIDE OF THE PAGE, IT LOOKS NICER*/
+main article p{
+  margin: 60px;
+  font-family: arial;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* LISTS LOOK NICER ON THE LEFT SIDE ALSO, SO I DID THE SAME HERE*/
+main article h3, main article ul, main article ol{
+  text-align: left;
+  margin: 60px;
+}
+
+/* CHANGED FOOTER TO REMAIN CONSISTENT WITH THE HEADER, LOOKS NICER*/
+footer{
+  background:#AFD7FF;
+  font-family: arial;
+  color:navy;
+  padding: 100px;
+  height: 50px;
+}
+
+main div ol{
+  text-align: left;
+}
+
+/*PSEUDO-CLASSES*/
+a:link {color:blue}
+a:visited {color:grey}
+a:hover {color:purple}
+a:active {color:red}
